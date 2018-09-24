@@ -1,5 +1,10 @@
 def make_sqaure(size):
-    pass
+    li = []
+    for i in range(0, size):
+        li.append('*')
+    s = "".join(li)
+    for i in range(0, size):
+        print(s)
 
 def make_rectangle(length, width):
     pass
